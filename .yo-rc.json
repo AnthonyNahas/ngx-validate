@@ -1,0 +1,43 @@
+{
+  "generator-ngx-library": {
+    "version": "6.2.1",
+    "authorName": "Anthony Nahas",
+    "authorEmail": "anthony.na@hotmail.de",
+    "githubUsername": "AnthonyNahas",
+    "githubRepoName": "ngx-validate",
+    "projectName": "ngx-validate",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular Open Source Validation Library via annotations, services and angular form validation",
+    "projectKeywords": [
+      "angular",
+      "library",
+      "open source",
+      "validation",
+      "strings",
+      "email",
+      "numbers",
+      "annotations",
+      "phone number",
+      "password"
+    ],
+    "ngVersion": "6.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "additionalPackageFiles": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "my-lib",
+    "testingFramework": "jest",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "config/karma.conf.js",
+      "config/webpack.test.js",
+      "config/karma-test-shim.js"
+    ],
+    "deleteExclusions": []
+  }
+}
