@@ -39,30 +39,30 @@ map: {
 
 Once installed you need to import the main module:
 ```js
-import { LibModule } from 'ngx-validate';
+import { NgxValidateModule } from 'ngx-validate';
 ```
 The only remaining part is to list the imported module in your application module. The exact method will be slightly
-different for the root (top-level) module for which you should end up with the code similar to (notice ` LibModule .forRoot()`):
+different for the root (top-level) module for which you should end up with the code similar to (notice ` NgxValidateModule .forRoot()`):
 ```js
-import { LibModule } from 'ngx-validate';
+import { NgxValidateModule } from 'ngx-validate';
 
 @NgModule({
   declarations: [AppComponent, ...],
-  imports: [LibModule.forRoot(), ...],  
+  imports: [NgxValidateModule.forRoot(), ...],  
   bootstrap: [AppComponent]
 })
 export class AppModule {
 }
 ```
 
-Other modules in your application can simply import ` LibModule `:
+Other modules in your application can simply import ` NgxValidateModule `:
 
 ```js
-import { LibModule } from 'ngx-validate';
+import { NgxValidateModule } from 'ngx-validate';
 
 @NgModule({
   declarations: [OtherComponent, ...],
-  imports: [LibModule, ...], 
+  imports: [NgxValidateModule, ...], 
 })
 export class OtherModule {
 }
