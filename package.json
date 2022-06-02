@@ -35,7 +35,7 @@
     "check-travis": " travis-status --repo=AnthonyNahas/ngx-validate --branch=master --fail-pending || echo 'Not yet passing'"
   },
   "dependencies": {
-    "@angular/core": "6.0.0",
+    "@angular/core": "11.0.5",
     "@angular/common": "6.0.0"
   },
   "devDependencies": {
